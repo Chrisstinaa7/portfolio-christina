@@ -28,17 +28,17 @@ export default function About() {
                         {/* Left: Text */}
                         <div className="md:w-2/3 text-lg space-y-8">
                             <p>
-                                I&apos;m <span className="font-semibold text-purple-300">Christina Peace</span>, a Computer Science graduate from Government College University, Lahore. I’m passionate about building interactive, user-focused applications and currently working on my final year project an indoor AR navigation app using augmented reality.
+                                I&apos;m <span className="font-semibold text-purple-300">Christina Peace</span>, a Computer Science graduate from Government College University, Lahore. I&apos;m passionate about building interactive, user-focused applications and currently working on my final year project an indoor AR navigation app using augmented reality.
                             </p>
 
-                            <p>I have a deep love for technology and enjoy exploring emerging tools and frameworks. Whether it's diving into a new JavaScript library, experimenting with mobile app development, or learning about the latest in AI, I’m always curious and eager to expand my skill set.</p>
+                            <p>I have a deep love for technology and enjoy exploring emerging tools and frameworks. Whether it&apos;s diving into a new JavaScript library, experimenting with mobile app development, or learning about the latest in AI, I&apos;m always curious and eager to expand my skill set.</p>
 
                             <p>
-                                My technical strengths span full-stack development, mobile app development, and database systems. I love mentoring and leading teams. As a <span className="text-purple-300 font-medium">Microsoft Learn Student Ambassador</span> and Graphics Lead at GCU-MLSA, I’ve hosted AI webinars and led creative campaigns.
+                                My technical strengths span full-stack development, mobile app development, and database systems. I love mentoring and leading teams. As a <span className="text-purple-300 font-medium">Microsoft Learn Student Ambassador</span> and Graphics Lead at GCU-MLSA, I&apos;ve hosted AI webinars and led creative campaigns.
                             </p>
 
                             <p>
-                                Besides my passion for technology, I also served as the <span className="text-purple-300 font-medium">Senior Vice President</span> of the Peace Society, promoting interfaith harmony and cultural understanding. I believe that empathy, communication, and collaboration are just as important as technical skills in today’s world.
+                                Besides my passion for technology, I also served as the <span className="text-purple-300 font-medium">Senior Vice President</span> of the Peace Society, promoting interfaith harmony and cultural understanding. I believe that empathy, communication, and collaboration are just as important as technical skills in today&apos;s world.
                             </p>
                         </div>
 

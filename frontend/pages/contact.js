@@ -13,10 +13,10 @@ export default function Contact() {
 
                 <div className="mt-10 max-w-xl mx-auto text-center border border-gray-700 rounded-xl p-8 shadow-lg bg-gray-900 bg-opacity-90">
 
-                    <h1 className="text-4xl font-bold mb-6 text-white-400">Let's Connect</h1>
+                    <h1 className="text-4xl font-bold mb-6 text-white-400">Let&apos;s Connect</h1>
 
                     <p className="text-lg text-gray-300 mb-8">
-                        Whether you're interested in collaborating, have a question, or just want to say hi. I’d love to hear from you!
+                        Whether you&apos;re interested in collaborating, have a question, or just want to say hi. I&apos;d love to hear from you!
                     </p>
 
                     <div className="space-y-6 text-left text-lg">
