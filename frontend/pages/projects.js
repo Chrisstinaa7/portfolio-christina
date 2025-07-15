@@ -1,5 +1,6 @@
 import Navbar from '/components/navbar.js'
 import ProjectCard from '/components/projectcard.js'
+import Footer from '/components/footer.js'
 
 export default function Projects() {
     const projects = [
@@ -8,18 +9,21 @@ export default function Projects() {
             description: 'A database-driven system designed to efficiently manage ride operations, queue handling, and ticketing in amusement parks.',
             tools: 'SQL Server, ERD Modeling, Stored Procedures',
             github: 'https://github.com/Chrisstinaa7/Amusement-Park',
+            image: '/park.png',
         },
         {
             title: 'FitFusion',
             description: 'A modern, fully responsive landing page for a fictional gym brand showcasing classes, testimonials, and CTA sections.',
-            tools: 'React.js, Tailwind CSS, JavaScript',
+            tools: 'React.js, CSS',
             github: 'https://github.com/Chrisstinaa7/FitFusion',
+            image: '/gym.png',
         },
         {
             title: 'AdventureHub',
             description: 'A mobile application designed to help users explore, plan, and book trips across Northern Pakistan with travel guides and curated routes.',
             tools: 'Flutter, Dart, UI/UX Design',
             github: 'https://github.com/Chrisstinaa7/AdventureHub',
+            image: '/dog.png',
         },
     ]
 
@@ -40,11 +44,13 @@ export default function Projects() {
                                 description={proj.description}
                                 tools={proj.tools}
                                 github={proj.github}
+                                image={proj.image}
                             />
                         ))}
                     </div>
                 </div>
             </main>
+            <Footer />
         </>
     )
 }

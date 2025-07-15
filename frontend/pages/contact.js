@@ -1,55 +1,62 @@
 import Navbar from '/components/navbar.js'
+import Footer from '/components/footer.js'
+import { Mail, Linkedin, Github } from 'lucide-react'
 
 export default function Contact() {
     return (
         <>
             <Navbar />
 
-            <main className="min-h-screen bg-black text-white px-6 py-16">
-                <div className="max-w-xl mx-auto text-center">
-                    <h1 className="text-4xl font-bold mb-10 text-blue-400">Contact Me</h1>
+            <main
+                className="min-h-screen bg-black bg-[url('/last.jpg')] bg-cover bg-center text-white px-6 py-16"
+            >
 
-                    <p className="text-lg mb-6">
-                        I'd love to connect! Feel free to reach out to me via any of the platforms below.
+                <div className="mt-10 max-w-xl mx-auto text-center border border-gray-700 rounded-xl p-8 shadow-lg bg-gray-900 bg-opacity-90">
+
+                    <h1 className="text-4xl font-bold mb-6 text-white-400">Let's Connect</h1>
+
+                    <p className="text-lg text-gray-300 mb-8">
+                        Whether you're interested in collaborating, have a question, or just want to say hi. I’d love to hear from you!
                     </p>
 
-                    <div className="space-y-4 text-lg">
-                        <p>
-                            <span className="font-semibold text-white">Email:</span>{' '}
+                    <div className="space-y-6 text-left text-lg">
+                        <div className="flex items-center gap-4">
+                            <Mail className="text-white-400" size={20} />
                             <a
                                 href="mailto:peacechristina32@gmail.com"
-                                className="text-blue-400 hover:underline"
+                                className="text-white-400 hover:underline break-all"
                             >
                                 peacechristina32@gmail.com
                             </a>
-                        </p>
+                        </div>
 
-                        <p>
-                            <span className="font-semibold text-white">LinkedIn:</span>{' '}
+                        <div className="flex items-center gap-4">
+                            <Linkedin className="text-white-400" size={20} />
                             <a
                                 href="https://www.linkedin.com/in/christina-peace"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="text-blue-400 hover:underline"
+                                className="text-white-400 hover:underline"
                             >
                                 linkedin.com/in/christina-peace
                             </a>
-                        </p>
+                        </div>
 
-                        <p>
-                            <span className="font-semibold text-white">GitHub:</span>{' '}
+                        <div className="flex items-center gap-4">
+                            <Github className="text-white-400" size={20} />
                             <a
                                 href="https://github.com/Chrisstinaa7"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="text-blue-400 hover:underline"
+                                className="text-white-400 hover:underline"
                             >
                                 github.com/Chrisstinaa7
                             </a>
-                        </p>
+                        </div>
                     </div>
                 </div>
             </main>
+            <Footer />
         </>
     )
 }
