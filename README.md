@@ -9,6 +9,6 @@ A responsive portfolio website built using React.js, Next.js, and Tailwind CSS.
 
 ## Run Locally
 
-cd frontend
-npm install
-npm run dev
+- cd frontend
+- npm install
+- npm run dev
